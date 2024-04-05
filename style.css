@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Логотип */
+header .logo a {
+    font-size: 30px;
+    padding: 15px 30px;
+}
+
+header .logo a span {
+    color: orange;
+}
+
+h3 {
+    color: black;
+    font-size: 60px;
+    padding: 10px 30px;
+}
+
+/* Навигация */
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    margin: 5px 20px;
+    font-size: 30px;
+    padding: 10px 10px;
+    color: orange;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Контент */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-image: url("img/bg.jpeg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Меню */
+.menu {
+    background-color: #333333;
+    width: 100%;
+}
+
+.menu .menu-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header h3 {
+    color: orange;
+    padding: 10px 30px;
+}
+
+.menu-header h4 {
+    color: orange;
+    padding: 10px 20px;
+}
+
+.menu .menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.slider {
+    position: relative;
+    margin: auto;
+    height: 100%;
+}
+
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.menu .menu-content .material {
+    width: 250px;
+}
+
+.menu .menu-content .material .material-image img {
+    border-radius: 50%;
+}
+
+.menu .menu-content .material-body {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu .menu-content .material-body h2 {
+    color: orange;
+}
+
+.menu .menu-content .material-body label {
+    margin-top: 10px;
+    color: white;
+}
+
+/* Магазин */
+.shop {
+    background-color: #404040;
+    width: 100%;
+}
+
+.shop .shop-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-header h3 {
+    color: orange;
+    padding: 10px 30px;
+}
+
+.shop-header h4 {
+    color: orange;
+    padding: 10px 20px;
+}
+
+.shop-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #404040;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.shop-box .card {
+    width: 280px;
+    margin: 20px;
+}
+
+.shop-box .card-image {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.shop-box .card-image img:hover {
+    transform: scale(1.1);
+    transition: transform .4s ease-in-out;
+}
+
+.shop-box .card-body {
+    padding: 20px;
+    color: white;
+    border: 3px solid #3B3B3B;
+}
+
+    .shop-box .card-body h3 {
+        padding: 10px 0;
+        text-align: center;
+        font-size: 30px;
+        color: orange;
+    }
+
+.shop-box .card-body i {
+    color: yellow;
+    font-size: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+    .shop-box .card-body .cash {
+        color: orange;
+        font-size: 35px;
+        margin-left: 70px;
+    }
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-top: 2px solid #333333;
+}
+
+.contact .contact-box {
+    flex: 1;
+}
+
+.contact .contact-box .contact-image,
+.contact .contact-box .contact-body {
+    height: 100%;
+}
+
+.contact img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-image img {
+    opacity: .9;
+}
+
+.contact-body {
+    background-color: #333333;
+    height: 100%;
+    border-left: 2px solid #333333;
+}
+
+.contact-body form {
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+
+.contact-body h2 {
+    font-size: 60px;
+    color: orange;
+}
+
+    .contact-body h1 {
+        font-size: 25px;
+        color: orange;
+        padding: 10px;
+    }
+
+form .form-content {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid lightgray;
+}
+
