@@ -10,16 +10,31 @@
 <body>
     <header>
         <div class="logo">
-            <a href="#"><span>Строительный магазин KRABS</span></a>
+            <a href="#"><span>Магазин KRABS</span></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#menu">Меню</a></li>
-                <li><a href="#shop">Магазин</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
+        <div class="nav-wrapper_menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#menu">Меню</a></li>
+                    <li><a href="#shop">Магазин</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <button class="burger-menu">&#9776;</button>
+        <div class="nav-wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#" data-text="Home">Главная</a></li>
+                    <li><a href="#menu" data-text="Menu">Меню</a></li>
+                    <li><a href="#shop" data-text="Shop">Магазин</a></li>
+                    <li><a href="#contact" data-text="Contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="content">
@@ -46,8 +61,7 @@
 
     <div class="menu" id="menu">
         <div class="menu-header">
-            <h3>Меню</h3>
-            <h4>Меню Материалов</h4>
+            <h3>Материалы</h3>
         </div>
         <div class="menu-content">
             <a href="#">
@@ -105,7 +119,6 @@
 
     <div class="shop" id="shop">
         <div class="shop-header">
-            <h3>Горячие предложения</h3>
             <h3>Горячие предложения</h3>
         </div>
         <div class="shop-box">
